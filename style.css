@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #1E1E1E;
+  padding: 1.2rem 20rem;
+}
+header ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+header a {
+  color: white;
+  text-decoration: none;
+  font-family: "Lily Script One", serif;
+  font-size: 20px;
+}
+
+main .background-disney {
+  height: 90vh;
+  background-image: url(https://s3-alpha-sig.figma.com/img/d9b6/4713/be9cbb0a9833ed803db4942464d05f2a?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gdsAYbXZigf2Xjx-Jea-kzculK9GExO1HwYp2fHz2p2QdU4NkYCyTlDxWirWWYDmAYCceMgfsfQeaVWmzC1sXFHC3PFTL~OeVilYtDf0IM-47J~DqzlYMKNwvuYGfKzVv-HQqe1skYEG3S8jQrg-hdYtt6hyC8zV3-XPG7TubYJiLWtHAgq2OEqpgqf8OZJOByFazVKc-aHVRaaZpHXrgbUum0OAm0Ex7CgOOXqUaV~jOVd5RggIpXZyL0MXKSXEF1JibU4HUSNmvq8n5HpcSEEkE5brmABVw8Y1~u4t0WotraBMxxJJ9XhJER4Pw86MpJL6eCQzlgsBig2qBvq-Ag__);
+  background-position: center;
+  background-size: cover;
+}
+main .container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 3rem 4rem;
+}
+main .container2 img {
+  width: 320px;
+  height: 460px;
+  border: 4px solid #000000;
+  border-radius: 8px;
+  margin: 3rem 2rem;
+}
+
+footer {
+  background-color: #1E1E1E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 400;
+  height: 15vh;
+}
+footer img {
+  width: 40px;
+  height: auto;
+}/*# sourceMappingURL=style.css.map */
